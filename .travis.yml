@@ -5,7 +5,7 @@ install:
   - cpanm --notest --with-recommends --with-suggests Test::WriteVariants
   - perl Makefile.PL
   - make manifest
-  - cpanm --quite --notest --with-recommends --with-suggests --with-develop --installdeps .
+  - cpanm --quiet --notest --with-recommends --with-suggests --with-develop --installdeps .
   - cpan-install --coverage
 language: perl
 perl:

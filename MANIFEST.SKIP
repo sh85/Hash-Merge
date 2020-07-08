@@ -26,8 +26,10 @@ _Inline/.*
 ^_build/.*
 ~$
 .*\.planner
-^\..*
+\.perltidyrc
+\.travis.yml
 Hash-Merge-.*
 \bxt
 Sandbox
-MYMETA\.*
+MYMETA\.json\.lock
+^MYMETA\.
